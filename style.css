@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: #F3F4F6;
+    color: #343A40;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk navigasi */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #007BFF;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #0056B3;
+    transform: scale(1.1);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #343A40;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table,
+th,
+td {
+    border: none;
+}
+
+th {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Tombol */
+table td a {
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+table td a[href*="edit"] {
+    background-color: #28A745;
+}
+
+table td a[href*="#"] {
+    background-color: #DC3545;
+}
+
+table td a:hover {
+    opacity: 0.85;
+}
+
+/* Button Tambah */
+.btn-add {
+    display: inline-block;
+    background-color: #28A745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
